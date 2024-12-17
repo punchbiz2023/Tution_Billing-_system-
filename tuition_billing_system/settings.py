@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-vm#*o&1qc*gj8dkepak4e$rhx)b*i$-@ok^0#t_on&@-ih@x5v
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tuitionbillingsystem.onrender.com']
 
 
 # Application definition
