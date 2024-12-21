@@ -105,16 +105,20 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
+import os
+
+# URL to access static files in the browser
 STATIC_URL = '/static/'
 
-# Static file serving during development
+# Static files for development, including 'main' app's static files
 STATICFILES_DIRS = [
-    BASE_DIR / 'main' / 'Static',  # Point to the static directory in your 'main' app
+    os.path.join(BASE_DIR, 'main', 'static'),  # Point to the static directory in your 'main' app
 ]
 
-# Collect static files in this directory during deployment
+# The directory where collected static files will be stored in production
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+# Optional: If you are serving media files (user uploads), you should also define 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
