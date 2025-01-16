@@ -41,19 +41,19 @@ For Django: Run the following command to start the local server:
    
 6. Click "Go to Admin panel" and follow the steps:
    
-  Master Admin Login
+ i) Master Admin Login
       Login Credentials:
             Username: pradeep
             Password: punchbiz
   Navigate to the login page and enter the above credentials to access the Master Dashboard.
   
-  Add Branches
+ ii) Add Branches
     After logging in as Master Admin, go to the "Add Branch" section in the Master Dashboard.
     Fill out the branch details:
     Branch Name: eg(Erode).
     Username and Password: eg(punchbiz).
   
-  Subjects:
+ iii) Subjects:
     Hold down the Ctrl key (or Cmd on Mac) and left-click to select multiple subjects for the branch from the dropdown list.
     Click the "Add" button to create the branch.
     A confirmation message will appear if the branch is created successfully.
@@ -70,21 +70,21 @@ For Django: Run the following command to start the local server:
   
   Navigate to the login page and enter the branch credentials to access the Tuition Center Dashboard.
   
-  Manage Students
+ i) Manage Students
   Log in to the Tuition Center Dashboard.
   Go to the "Manage Students" section:
   
-  Add Student:
+ ii) Add Student:
     Fill in the student details (Name, phone_number, address, etc.).
     Assign the subjects they will enroll in (select multiple using Ctrl + Left Click).
     Click "Add" to save the student details.
 
-  Edit Student:
+ iii) Edit Student:
     Select the student from the list.
     Update their details or change the assigned subjects.
     Click "Update" to save changes.
     
-  View Students:
+ iv) View Students:
     Browse the student list for details of all enrolled students.
     Generate Invoices
     Navigate to the "Billing" section in the Tuition Center Dashboard.
@@ -96,7 +96,7 @@ For Django: Run the following command to start the local server:
     A preview of the invoice will appear.
     Click "Download PDF" to save the invoice to your device.
 
-  Track Billing Status
+ V) Track Billing Status:
     Go to the "Billing Status" section in the Tuition Center Dashboard.
     View the list of students with their billing details, including:
     Invoice Number
@@ -105,14 +105,14 @@ For Django: Run the following command to start the local server:
     Use the search or filter options to locate specific invoices.
     Edit/Remove Branches or Subjects
     
-  Edit Branch:
+ vi) Edit Branch:
     In the Master Dashboard, go to the "Manage Branches" section.
     Select the branch to edit its details (e.g., add or remove subjects).
     Click "Update" to save changes.
     
-  Remove Branch:
+ vii) Remove Branch:
   Select the branch from the list and click "Delete".
   
-  Edit/Remove Subjects:
+ viii) Edit/Remove Subjects:
     Navigate to the "Manage Subjects" section in the Master Dashboard.
     Edit the subject details or delete them as required.
